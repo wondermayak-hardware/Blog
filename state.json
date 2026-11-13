@@ -1,1 +1,11 @@
-{"next": 0, "history": []}
+{
+ "next": 1,
+ "history": [
+  {
+   "id": 1,
+   "title": "How to Prepare Space and ISRO for CUET 2027 in 7 Days",
+   "date": "2026-11-13",
+   "model": "nvidia/nemotron-3-ultra-550b-a55b:free"
+  }
+ ]
+}
