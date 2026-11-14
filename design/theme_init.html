@@ -1,0 +1,8 @@
+<script>
+/* Theme is only ever 'light' (blue) or 'dark' (purple). It comes from the saved choice, never from the phone or system setting.
+   The color-scheme meta stops phone browsers (Chrome, Samsung Internet, MIUI) from auto-darkening the page and turning the blue into purple. */
+(function(){var t='light';try{var s=localStorage.getItem('theme');if(s==='dark'||s==='light')t=s;}catch(e){}
+document.documentElement.setAttribute('data-theme',t);
+var m=document.getElementById('metaTheme');if(m)m.setAttribute('content',t==='dark'?'#9A7AFB':'#70A1FC');
+var c=document.getElementById('metaScheme');if(c)c.setAttribute('content',t);})();
+</script>
